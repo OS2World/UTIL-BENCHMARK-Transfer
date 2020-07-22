@@ -1,0 +1,8 @@
+
+.c.obj:
+        cl -c -Lp -Oilt -G2 $<
+
+
+transfer.exe:   transfer.obj
+        link /E /NOD:SLIBCE /NOE transfer.obj,,, slibcep doscalls.lib svideop.lib;
+        

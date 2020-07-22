@@ -1,0 +1,22 @@
+TRANSFER.EXE    -       OS/2 Data transfer test
+
+Transfer is an OS/2 only program that does a data transfer test
+measurement on OS/2 disks.
+
+Transfer set's itself at the highest priority and then reads
+repeatedly from the disk.  It then calculated the data transfered
+in K per second.  It uses the OS/2 clock for measurement.
+
+Transfer was compiled using MS 'C' version 6.0 .  Source and makefile is 
+included so you can make it yourself.  Try changing it so it reads at 
+a different spot on the disk.
+
+
+Any Questions should be directed to:
+
+        Richard Jay Bothne
+        34 Eborall Close
+        Woodloes Park
+        Warwick, England
+        CV34 5QA
+

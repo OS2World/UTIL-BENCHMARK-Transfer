@@ -1,0 +1,42 @@
+
+ transfer
+
+ Start     Length     Name                   Class
+ 0001:0000 0344AH     _TEXT                  CODE
+ 0001:3450 026F0H     EMULATOR_TEXT          CODE
+ 0001:5B40 00000H     C_ETEXT                ENDCODE
+ 0002:0000 00170H     EMULATOR_DATA          FAR_DATA
+ 0003:0000 00042H     NULL                   BEGDATA
+ 0003:0042 0070EH     _DATA                  DATA
+ 0003:0750 0000EH     CDATA                  DATA
+ 0003:075E 00000H     XIB                    DATA
+ 0003:075E 00002H     XI                     DATA
+ 0003:0760 00000H     XIE                    DATA
+ 0003:0760 00000H     XIFB                   DATA
+ 0003:0760 00000H     XIF                    DATA
+ 0003:0760 00000H     XIFE                   DATA
+ 0003:0760 00000H     XPB                    DATA
+ 0003:0760 00002H     XP                     DATA
+ 0003:0762 00000H     XPE                    DATA
+ 0003:0762 00000H     XCB                    DATA
+ 0003:0762 00000H     XC                     DATA
+ 0003:0762 00000H     XCE                    DATA
+ 0003:0762 00000H     XCFB                   DATA
+ 0003:0762 00000H     XCF                    DATA
+ 0003:0762 00000H     XCFE                   DATA
+ 0003:0762 00018H     CONST                  CONST
+ 0003:077A 00008H     HDR                    MSG
+ 0003:0782 001D9H     MSG                    MSG
+ 0003:095B 00002H     PAD                    MSG
+ 0003:095D 00001H     EPAD                   MSG
+ 0003:095E 0002AH     _BSS                   BSS
+ 0003:0988 00000H     XOB                    BSS
+ 0003:0988 00000H     XO                     BSS
+ 0003:0988 00000H     XOE                    BSS
+ 0003:0990 00200H     c_common               BSS
+ 0003:0B90 00A00H     STACK                  STACK
+
+ Origin   Group
+ 0003:0   DGROUP
+
+Program entry point at 0001:0522
